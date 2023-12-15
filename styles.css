@@ -1,0 +1,27 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c0c0c0; 
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.description {
+    text-align: center;
+    padding: 50px;
+}
+
+
